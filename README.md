@@ -47,9 +47,10 @@ To set up the infrastructure, follow these steps:
 
 1. Clone the repository.
 2. Navigate to the directory containing the Terraform code.
-3. Enter your ami id in `main.tf` file
-4. Run `terraform init` to initialize the working directory.
-5. Run `terraform apply` to apply the changes and create the infrastructure.
+3. Get access to your AWS IAM user account, using access key and secret key.
+4. Enter your ami id in `main.tf` file
+5. Run `terraform init` to initialize the working directory.
+6. Run `terraform apply` to apply the changes and create the infrastructure.
 
 ## Output
 
